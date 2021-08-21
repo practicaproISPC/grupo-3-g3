@@ -5,72 +5,239 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscripciones</title>
-    <style>
-        .centrar {
-            display: block;
-            margin: auto;
-            width: 50%;
-        }
-
-        .campos {
-            width: 100%;
-            background: #d5dae0;
-            padding: 10px;
-            border-radius: 4px;
-            margin-bottom: 16px;
-            border: 1px solid #c51f64;
-            font-family: 'calibri';
-            font-size: 18px;
-            color: blue;
-        }
-
-        .bordeImagen {
-            border: rgb(155, 56, 56) 10px solid;
-            border-image-slice: 10;
-            border-image-width: 20px 40px;
-            padding: 5px;
-            text-align: justify;
-            width: 150px;
-            height: 150px;
-        }
-    </style>
+    <link rel="stylesheet" href="../HojaDeEstilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bochas Sport Club</title>
 </head>
 
-<body>
+<body class="center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../Imagenes/logo2.png" alt="..." height="80">
+                <p>Bochas Sport Club</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Integrador1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">El Club</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Actividades
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item " href="#">Acrobacia Sobre Tela</a></li>
+                            <li><a class="dropdown-item " href="#">Basquet</a></li>
+                            <li><a class="dropdown-item " href="#">Fútbol</a></li>
+                            <li><a class="dropdown-item " href="#">Gimnasia Artística</a></li>
+                            <li><a class="dropdown-item " href="#">Handball</a></li>
+                            <li><a class="dropdown-item " href="#">Hockey</a></li>
+                            <li><a class="dropdown-item " href="#">Patín</a></li>
+                            <li><a class="dropdown-item " href="#">Voley</a></li>
+                            <li><a class="dropdown-item " href="#">Yoga</a></li>
+                            <li><a class="dropdown-item " href="#">Zumba</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <header class="py-5 bg-info border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-1">
+                <h1 class="fw-bolder">Registro de Inscripción</h1>
+            </div>
+        </div>
+    </header>
+
     <!-- ver como cargar foto-->
-    <section class="centrar">
-        <h2>Formulario de Registro</h2>
+    <section class="center">
         <img src="../Imagenes/logo2.png" class="bordeImagen" alt="Imagen de perfl"> <br>
-        <input type="file" name="foto" placeholder="Foto de perfil">
-        <input class="campos" type="text" name="nombres" placeholder="Nombre" required>
-        <!--no funciona campo obligatorio-->
-        <input class="campos" type="text" name="apellidos" placeholder="Apellido" required>
-        <input class="campos" type="date" name="fechaNac" placeholder="Fecha de nacimiento">
-        <input class="campos" type="text" name="dni" placeholder="Numero de DNI">
-        <input class="campos" type="text" name="direccion" placeholder="Domicilio">
-        <input class="campos" type="text" name="telefono" placeholder="Telefono de contacto">
-        <input class="campos" type="email" name="correo" placeholder="Correo Electrónico">
-        <input class="campos" type="password" name="correo" placeholder="Contraseña">
-<!--lista desplegable de disciplinas-->
-        <select name="disciplina" class="campos" >
-            <option value="0"> Elige una opción </option>
-            <option value="1">Acrobacia en tela</option> 
-            <option value="2">Basquet</option> 
-            <option value="3">Futbol</option>
-            <option value="4">Gimnacia Artistica</option> 
-            <option value="5">Hockey</option> 
-            <option value="6">Patín</option> 
-            <option value="7">Yoga</option> 
-            <option value="6">Zumba</option> 
-         </select>
+        <h6>
+            <input type="file" name="foto" placeholder="Foto de perfil">
+        </h6>
+        <!--FORMULARIO-->
+        <div class="centrar">
+            <input class="campos" type="text" name="nombres" placeholder="Nombre" required>
+            <!--no funciona campo obligatorio-->
+            <input class="campos" type="text" name="apellidos" placeholder="Apellido" required>
+            <div class="campos">
+                <label for="fechaNac">Fecha de Nacimiento</label>
+                <input class="campos" type="date" name="fechaNac" id="fechaNac">
+            </div>
 
-        <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-        <input type="submit" value="Registrar">
-        <p><a href="#">¿Ya tengo Cuenta?</a></p>
-    </section>
+            <input class="campos" type="text" name="dni" placeholder="Numero de DNI">
+            <input class="campos" type="text" name="direccion" placeholder="Domicilio">
+            <input class="campos" type="text" name="telefono" placeholder="Telefono de contacto">
+            <input class="campos" type="email" name="correo" placeholder="Correo Electrónico">
+            <input class="campos" type="password" name="correo" placeholder="Contraseña">
+            <!--lista desplegable de disciplinas-->
+            <select name="disciplina" class="campos">
+                <option value="0"> Eligí tu deporte </option>
+                <option value="1">Acrobacia en tela</option>
+                <option value="2">Basquet</option>
+                <option value="3">Fútbol</option>
+                <option value="4">Gimnacia Artistica</option>
+                <option value="5">Hockey</option>
+                <option value="6">Patín</option>
+                <option value="7">Yoga</option>
+                <option value="6">Zumba</option>
+            </select>
+            <!--aceptar registro de datos-->
+            <div class="h6">
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="h1" type="submit" value="Registrar" disabled>
+                <p><a href="#">¿Ya tengo Cuenta?</a></p>
+            </div>
+        </div>
+        <!--fin-->
 
-    <a href="Integrador1.html">Pagina principal</a>
+        <!-- Footer-->
+        <footer class="page-footer font-small indigo bg-dark">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">El Club</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Historia</a>
+                            </li>
+                            <li>
+                                <a href="#!">Autoridades</a>
+                            </li>
+                            <li>
+                                <a href="#!">Visión</a>
+                            </li>
+                            <li>
+                                <a href="#!">Very long link</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Novedades</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Actividades</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacto</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <footer class="py-5 bg-dark">
+                <div class="container px-4 px-lg-5">
+                    <p class="m-0 text-center text-white">Copyright &copy; 2021</p>
+                </div>
+            </footer>
+
+            <!-- Bootstrap core JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
