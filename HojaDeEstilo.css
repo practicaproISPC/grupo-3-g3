@@ -1,8 +1,8 @@
 .container{
     position: relative;
     display: inline-block;
+    
 }
-
 .left{
     display: flex;
     position: absolute;
@@ -19,6 +19,22 @@
     right: 50px;
     color:rgb(0, 0, 0);
     font-size: 1cm;
+}
+.campos {
+    width: 100%;
+    background: #d5dae0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c51f64;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+.centrar {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 .center{
     text-align: center;
@@ -76,7 +92,7 @@ div.anuncio {
     }
 
     p{
-        margin: 20px;
+        margin: 10px;
     }
 
     div.iconos{
@@ -143,5 +159,15 @@ div.anuncio {
         right: 0px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .bordeImagen {
+        border: rgb(155, 56, 56) 10px solid;
+        border-image-slice: 10;
+        border-image-width: 20px 40px;
+        padding: 5px;
+        text-align: justify;
+        width: 150px;
+        height: 150px;
+        margin: auto;
     }
     
