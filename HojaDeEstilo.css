@@ -1,7 +1,15 @@
 .container{
-    position: relative;
-    display: inline-block;
+    position:relative;
+    display:inline-block;
     
+     
+}
+.container-dep{
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    border: 0mm;
 }
 .left{
     display: flex;
@@ -76,7 +84,7 @@ div.anuncio {
     border: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    width: 400px;
+    width: 200px;
     
   }
 
@@ -121,7 +129,7 @@ div.anuncio {
 
     div.VerTodas{
         text-align: right;
-        margin-right: 350px;
+        margin-right: 50px;
     }
 
     .footer{
@@ -155,7 +163,7 @@ div.anuncio {
         display: flex;
         position: absolute;
         background: darkslategray;
-        color: white;
+        color: white ;     
         right: 0px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -172,14 +180,35 @@ div.anuncio {
         margin: auto;
     }
     h1.deporte{
-        font-size:500%;
+        font-size:600%;
         color:darkblue;
         background-color: red;
         
 
+
     }    
     ul.fotos img{
-        display:inline;
-        height: 6%;
-        width:11%;
+        position:inherit;
+        height:25%;
+        width:25%;
+        
     }
+    ul.fotos{
+        margin: 20px;
+        background-color: darkblue ;
+        padding: 3%;
+        
+    }    
+    
+        
+    
+    div.row{
+        
+        background-color: darkred;
+        padding: 20px;
+        position: center; 
+        
+    }
+       
+
+    
