@@ -30,6 +30,9 @@
     font-family: 'calibri';
     font-size: 18px;
     color: black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .centrar {
     display: block;
@@ -41,6 +44,7 @@
     top: 3cm;
     color: black;
     font-size: 1cm;
+    text-size-adjust: inherit;
 }
 
 .Venta{
