@@ -1,14 +1,22 @@
 .container{
-    position: relative;
-    display: inline-block;
+    position:relative;
+    display:inline-block;
     
+     
+}
+.container-dep{
+    position: relative;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    border: 0mm;
 }
 .left{
     display: flex;
     position: absolute;
     top: 20px;
     left: 50px;
-    color:white;
+    color:rgb(15, 29, 228);
     font-size: 2cm;
 }
 
@@ -80,7 +88,7 @@ div.anuncio {
     border: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
-    width: 400px;
+    width: 200px;
     
   }
 
@@ -125,7 +133,7 @@ div.anuncio {
 
     div.VerTodas{
         text-align: right;
-        margin-right: 350px;
+        margin-right: 50px;
     }
 
     .footer{
@@ -159,7 +167,7 @@ div.anuncio {
         display: flex;
         position: absolute;
         background: darkslategray;
-        color: white;
+        color: white ;     
         right: 0px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -175,5 +183,36 @@ div.anuncio {
         height: 150px;
         margin: auto;
     }
+    h1.deporte{
+        font-size:600%;
+        color:darkblue;
+        background-color: red;
+        
+
+
+    }    
+    ul.fotos img{
+        position:inherit;
+        height:25%;
+        width:25%;
+        
+    }
+    ul.fotos{
+        margin: 20px;
+        background-color: darkblue ;
+        padding: 3%;
+        
+    }    
     
+        
+    
+    div.row{
+        
+        background-color: white;
+        padding: 2px;
+        position: center; 
+        
+    }
+       
+
     
