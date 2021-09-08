@@ -9,6 +9,9 @@
     
     background-color: rgb(197, 5, 5);
     display:inline-block;
+    position: relative;
+    background-color: white;   
+
     width: 100%;
     margin:0 auto;
     padding-left: inherit;
@@ -43,6 +46,9 @@
     font-family: 'calibri';
     font-size: 18px;
     color: black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .centrar {
     display: block;
@@ -54,6 +60,7 @@
     top: 3cm;
     color: black;
     font-size: 1cm;
+    text-size-adjust: inherit;
 }
 
 .Venta{
@@ -221,8 +228,8 @@ div.anuncio {
         
     
     div.row{
-        
-        background-color: darkred;
+    
+        background-col darkred;
         margin:3%; 
         padding:3%;
         display:flex;
@@ -246,6 +253,10 @@ div.anuncio {
     }
     div.card-body{
         color: darkblue;
+        background-color: white;
+        padding: 2px;
+        position: center; 
+
         
     }
     .nav-item{
