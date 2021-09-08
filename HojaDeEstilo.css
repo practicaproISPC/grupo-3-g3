@@ -1,15 +1,19 @@
 .container{
-    position:relative;
-    display:inline-block;
-    
-     
+    position: inherit;
+    display:flex;
+    background-color: darkblue;
+    font-size:large;
+   
 }
 .container-dep{
-    position: relative;
-    background-color: red;
-    display: inline-block;
+    
+    background-color: rgb(197, 5, 5);
+    display:inline-block;
     width: 100%;
-    border: 0mm;
+    margin:0 auto;
+    padding-left: inherit;
+    padding-right: inherit;
+    font-size:larger;
 }
 .left{
     display: flex;
@@ -27,6 +31,7 @@
     right: 50px;
     color:rgb(0, 0, 0);
     font-size: 1cm;
+
 }
 .campos {
     width: 100%;
@@ -147,10 +152,11 @@ div.anuncio {
         margin: 0px;
         padding: 0px;
         font-family: Arial, Helvetica, sans-serif;
+       
     }
 
     div.pieleft{
-        background: darkslategray;
+        background:darkslategray;
         color: white;
         display: flex;
         position: absolute;
@@ -180,17 +186,29 @@ div.anuncio {
         margin: auto;
     }
     h1.deporte{
-        font-size:600%;
-        color:darkblue;
-        background-color: red;
+        font-size:6em;
+        color:ghostwhite;
+        background-color: rgb(197, 5, 5);
+        width:auto; 
+        padding-right: 4%; 
+        float:right;
+        margin: 5px;
+              
+    }
+    .galeria{
+        display: flex;
+       
         
+       
 
 
+    
     }    
     ul.fotos img{
-        position:inherit;
+        position:relative;
         height:25%;
         width:25%;
+        padding: 5px;
         
     }
     ul.fotos{
@@ -205,10 +223,38 @@ div.anuncio {
     div.row{
         
         background-color: darkred;
-        padding: 20px;
-        position: center; 
+        margin:3%; 
+        padding:3%;
+        display:flex;
+                    
+    }
+    .card-header{
+        color:darkblue
+    } 
+    .col-sm-12 ul li a{
+        color: whitesmoke;
+    }  
+    .list-unstyled li a{
+        color:whitesmoke;
+    }
+    nav.navbar {
+        background-color: navy;
+
+    }
+    h5{
+        color: darkblue;
+    }
+    div.card-body{
+        color: darkblue;
         
     }
-       
+    .nav-item{
+        font-size: large;
+    }
+ 
+    
+        
+        
+   
 
     
