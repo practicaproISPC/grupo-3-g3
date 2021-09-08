@@ -72,29 +72,35 @@
 
 <body class="center">
     <!--reservas-->
+    <form action="contact.php" method="post" enctype="text/plain">
     <div class="center">
         <img src="../Imagenes/logo2.png" alt="Imagen de perfl" class="centrar">
         <h2>Reservas de espacios </h2>
         <div class="centrar">
-            <select name="evento" class="campos">
+            <select name="evento"  class="campos">
                 <option value="0"> Elige una opción </option>
                 <option value="1">evento 1</option>
                 <option value="2">evento 2</option>
                 <option value="3">evento 3</option>
             </select>
-            <input class="campos" type="text" name="nombres" placeholder="Nombre">
+            <br>
+            <input class="campos" type="text" name="nombre" placeholder="Nombre">
+            <br>
             <input class="campos" type="text" name="apellidos" placeholder="Apellido">
             <div class="campos">
                 <label for="fechaReserva">Fecha de realización del evento</label>
                 <input class="campos" type="date" name="fechaReserva" placeholder="Fecha de la reserva">
             </div>
+
             <input class="campos" type="email" name="correo" placeholder="Correo Electrónico">
+            <br>
             <textarea name="mensaje" id="mensaje" class="campos" placeholder="escribe un mensaje"></textarea>
 
         </div>
 
-        <input type="submit" value="Registrar" ><br><br>
+        <input type="submit" value="Registrar" ><a href="mailto:luna.htz@hotmail.com"></a><br><br>
     </div>
+</form>
     <!---->
     <!-- Footer-->
     <footer class="page-footer font-small indigo bg-dark">
