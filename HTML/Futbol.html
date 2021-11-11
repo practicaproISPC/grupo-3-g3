@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../HojaDeEstilo.css">
+  <link rel="stylesheet" href="../CarrouselEstilo.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Bochas Sport Club</title>
@@ -13,16 +14,19 @@
   
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-  <div class="container-dep">
+<nav class="navbar navbar-expand-lg navbar-dark bg" style= "background-color:darkblue">
+  <div class="container">
     <a class="navbar-brand" href="Integrador1.html">
+      <br>
       <img src="../Imagenes/logo2.png" alt="..." height="80">
-      <p>Bochas Sport Club</p>
+      <p style="float: right;">Bochas<br>Sport<br>Club</p>
     </a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
@@ -39,7 +43,7 @@
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item " href="#">Acrobacia Sobre Tela</a></li>
             <li><a class="dropdown-item " href="#">Basquet</a></li>
-            <li><a class="dropdown-item " href="#">Fútbol</a></li>
+            <li><a class="dropdown-item " href="../grupo-3-g3/HTML/Futbol.html">Fútbol</a></li>
             <li><a class="dropdown-item " href="#">Gimnasia Artística</a></li>
             <li><a class="dropdown-item " href="#">Handball</a></li>
             <li><a class="dropdown-item " href="#">Hockey</a></li>
@@ -57,112 +61,135 @@
           <a class="nav-link active" href="#">Contacto</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link bg-warning active" href="login.html">Login</a>
+          <a class="nav-link bg-dark active" href="login.html">Login</a>
         </li>
       </ul>
     </div>
-  </div>
+    <h1 class="deporte">FÚTBOL</h1>
+  </div>   
   
-    <div class="container" >
-      <div class="text-center my-1" style="width: 100%">
-        <h1 class="deporte">FÚTBOL</h1>
-        
-      </div>
-    </div>
   
 </nav>
 
 <!-- Page Content -->
 
-
-<div class="container">
-  
-  <div class="row">
-    <!-- Blog entries-->
-    <div class="col-lg-8">
-      <!-- Featured blog post-->
-      <div class="card mb-4">
-        <a href="#!"><img class="card-img-top" src="../Imagenes/Fútbol/futbolhs.jpg">
-          
-        <div class="card-body">
-          <div class="small text-muted">Sumate!</div>
-          <h2 class="card-title">Fútbol</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          
-        </div>
-      </div>
-    </div>
-    <!-- Side widgets-->
-    <div class="col-lg-4" >
-      <!-- Search widget-->
-      <div class="card mb-4">
-        <div class="card-header">Buscar</div>
-        <div class="card-body">
-          <div class="input-group">
-            <input class="form-control" type="text" placeholder="Buscar" aria-label="Enter search term..."
-              aria-describedby="button-search" />
-            <button class="btn btn-primary" id="button-search" type="button">Buscar</button>
+<body class="">
+  <div class="container">
+    
+    <div class="row">
+      <!-- Blog entries-->
+      <div class="col-lg-8">
+        <!-- Featured blog post-->
+        <div class="card mb-4">
+          <a href="#!"><img class="card-img-top" src="../Imagenes/Fútbol/futbolhs.jpg">
+            
+          <div class="card-body">
+            <div class="small text-muted">Sumate!</div>
+            <h2 class="card-title">Fútbol</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            
           </div>
         </div>
       </div>
-      <!-- Categories widget-->
-      <div class="card mb-4">
-        <div class="card-header">Ingreso</div>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-sm-12">
-              <ul class="list-unstyled mb-0">
-                <li><a href="#!">Actividades</a></li>
-                <li><a href="#!">Cronogramas</a></li>
-                <li><a href="#!">Galeria</a></li>
-              </ul>
+      <!-- Side widgets-->
+      <div class="col-lg-4" >
+        <!-- Search widget-->
+        <div class="card mb-4">
+          <div class="card-header">Buscar</div>
+          <div class="card-body">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Buscar" aria-label="Enter search term..."
+                aria-describedby="button-search" />
+              <button class="btn btn-primary" id="button-search" type="button">Buscar</button>
             </div>
-            <div class="col-sm-12">
-              <ul class="list-unstyled mb-0">
-                <li><a href="tienda.html">Tienda Virtual</a></li>
-                <li><a href="inscripciones.html">Inscripciones</a></li>
-                <li><a href="#!">Contacto</a></li>
-              </ul>
-            </div>
-            <div class="imgX">
-              <img src="../Imagenes/Futbol.png" alt="">
+          </div>
+        </div>
+        <!-- Categories widget-->
+        <div class="card mb-4">
+          <div class="card-header">Ingreso</div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-12">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#!">Actividades</a></li>
+                  <li><a href="#!">Cronogramas</a></li>
+                  <li><a href="#!">Galeria</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12">
+                <ul class="list-unstyled mb-0">
+                  <li><a href="tienda.html">Tienda Virtual</a></li>
+                  <li><a href="inscripciones.html">Inscripciones</a></li>
+                  <li><a href="#!">Contacto</a></li>
+                </ul>
+                <img src="../Imagenes/Futbol.png" alt="">
+              </div>
+              
+                
 
-            </div>
+                          
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Galeria-->
-<ul class="fotos"> 
-		
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/escuelita.jpg"></a> 
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/futbolf2.jpg"></a>
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/futbolfem.jpg"></a>
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/futbolfestejo2.jpg"></a>
-  
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/futbolreserva.jpg"></a>
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/fútbol.jpg"></a>
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/fútbolfestejo.jpg"></a>
-  <a><img class="franjaDeFotos" src="../Imagenes/Fútbol/septima.jpg"></a>
-</ul>
 
-  <!-- Footer-->
-  <footer class="page-footer font-small indigo bg-dark">
+ <!-- Galeria-->
+ <div class= "row justify-content-center">
+  <div class="col-lg-5">
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Imagenes/Fútbol/escuelita.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/futbolf2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/futbolfem.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/futbolfestejo2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/futbolreserva.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/fútbol.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/fútbolfestejo.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../Imagenes/Fútbol/septima.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
+          </button>
+      </div>
+    </div>
+  </div> 
+ <!-- Footer-->
+  <footer class="page-footer font-small indigo bg" >
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
 
       <!-- Grid row -->
-      <div class="row">
+      <div class="row" style="background-color: rgb(3, 3, 88);">
 
         <!-- Grid column -->
         <div class="col-md-3 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">El Club</h5>
+          <h5 class="font-weight-bold text-uppercase  mt-3 mb-4">El Club</h5>
 
           <ul class="list-unstyled">
             <li>
@@ -264,8 +291,8 @@
       <!-- Grid row -->
 
     </div>
-    <footer class="py-5 bg-dark">
-      <div class="container px-4 px-lg-5">
+    <footer class="py-5 bg" style="background-color: darkblue;">
+      <div class="container px-4 px-lg-5" >
         <p class="m-0 text-center text-white">Copyright &copy; 2021</p>
       </div>
     </footer>
