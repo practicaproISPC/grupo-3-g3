@@ -1,16 +1,10 @@
 .container{
-    position:relative;
-    display:inline-block;
     
+  
+    background-color: rgb(167, 2, 2);
      
 }
-.container-dep{
-    position: relative;
-    background-color: white;
-    display: inline-block;
-    width: 100%;
-    border: 0mm;
-}
+
 .left{
     display: flex;
     position: absolute;
@@ -114,7 +108,7 @@ div.anuncio {
     }
 
     button{
-        background: orange;
+        background: rgb(0, 89, 255);
         width: 300px;
         height: 50px;
         color: white;
@@ -173,21 +167,13 @@ div.anuncio {
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
-    .bordeImagen {
-        border: rgb(155, 56, 56) 10px solid;
-        border-image-slice: 10;
-        border-image-width: 20px 40px;
-        padding: 5px;
-        text-align: justify;
-        width: 150px;
-        height: 150px;
-        margin: auto;
-    }
+   
     h1.deporte{
-        font-size:600%;
-        color:darkblue;
-        background-color: red;
-        
+        font-size:3em;
+        color:white;       
+        float:right;
+        padding-right: 10%;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
     }    
@@ -208,11 +194,25 @@ div.anuncio {
     
     div.row{
         
-        background-color: white;
+        background-color: rgb(167, 2, 2);
         padding: 2px;
         position: center; 
-        
+        color: mediumblue;
+        width: 100%;
     }
        
+    div.col-lg-7{
+        background-color: darkblue;
+        padding: 1rem;        
+    }
+    h5{
+        color: floralwhite;
+    }
+     
+       
+    
+  
+       
 
+    
     
