@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../HojaDeEstilo.css">
+  <link rel="stylesheet" href="../CarrouselEstilo.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Bochas Sport Club</title>
@@ -13,8 +14,13 @@
 
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
-  <div class="container" >
+
+  
+    
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
     <a class="navbar-brand" href="Integrador1.html">
       <img src="../Imagenes/logo2.png" alt="..." height="80">
       <p>Bochas Sport Club</p>
@@ -62,7 +68,7 @@
         <li class="nav-item">
           <a class="nav-link bg-danger active" href="Integrador1.html" class="span4 proj-div"
             onClick="alert('Cierre de Sesión exitoso');">
-            Salir</a>
+            >Salir</a>
 
         </li>
       </ul>
@@ -71,6 +77,8 @@
 </nav>
 
 <!-- Page Content -->
+<body class="center h2">
+  
 
 <div class="container">
   <div class="row">
@@ -78,24 +86,40 @@
     <div class="col-lg-8">
       <!-- Featured blog post-->
       <div class="card mb-4">
-        <a href="#!"><img class="card-img-top" src="../Imagenes/18814263_1314062312004226_4016739304366801535_n.jpg"
-            alt="..." /></a>
-        <div class="card-body">
-          <div class="small text-muted">Octubre 24, 1934</div>
-          <h2 class="card-title">Historia</h2>
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <a class="btn btn-primary" href="#!">Leer más →</a>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../Imagenes/acrobaciatelabochas.png" class="d-block w-100" alt="...">
+          </div>
+                  <div class="carousel-item">
+                    <a href="../HTML/Futbol.html">
+                    <img src="../Imagenes/Fútbol/futbolhs.jpg"   class="d-block w-100" alt="...">
+                    </a>
+                  </div>
+            <div class="carousel-item">
+              <img src="../Imagenes/Handball/handballm.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+              </button>
+         </div>
       </div>
     </div>
     <!-- Side widgets-->
     <div class="col-lg-4">
       <!-- Search widget-->
-      <div class="card mb-4">
+      <div class="card mb-4" >
         <div class="card-header">Buscar</div>
         <div class="card-body">
           <div class="input-group">
-            <input class="form-control" type="text" placeholder="Buscar" aria-label="Enter search term..."
+            <input class="form-control" type="text" placeholder="Buscar" aria-label="Ingrese el término a buscar..."
               aria-describedby="button-search" />
             <button class="btn btn-primary" id="button-search" type="button">Buscar</button>
           </div>
@@ -135,10 +159,10 @@
   </div>
 
 </div>
+</body>
 
 
-
-<body class="center h5">
+<body class="center">
   <div class="center"> Actividades </div>
   <div class="bloque">
     <img src="../Imagenes/acrobaciatelabochas.png" height="300" width="300">
