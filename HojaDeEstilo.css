@@ -171,8 +171,8 @@ div.anuncio {
     h1.deporte{
         font-size:3em;
         color:white;       
-        float:right;
-        padding-right: 10%;
+        float:left;
+        padding: 5%;
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
@@ -208,8 +208,7 @@ div.anuncio {
     h5{
         color: floralwhite;
     }
-     
-       
+    
     
   
        
