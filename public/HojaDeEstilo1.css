@@ -1,0 +1,253 @@
+.container{
+    
+  
+    background-color: rgb(167, 2, 2);
+     
+}
+
+.left{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color:rgb(15, 29, 228);
+    font-size: 2cm;
+}
+
+.right{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color:rgb(0, 0, 0);
+    font-size: 1cm;
+}
+.campos {
+    width: 100%;
+    background: #d5dae0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c51f64;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centrar {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.center{
+    text-align: center;
+    top: 3cm;
+    color: black;
+    font-size: 1cm;
+    text-size-adjust: inherit;
+}
+
+.Venta{
+    flex-direction: initial;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    color:white;
+    font-size: 1.5cm;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.bloque {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 50px;
+  }
+  
+div.a{
+    display: inline-flex;
+    font-size: 20px;
+    width: 300px;
+}
+
+div.anuncio {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    padding: auto;
+    background: lightgrey;
+    border: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 200px;
+    
+  }
+
+  span.precio{
+      color: green;
+      font-size: 20px;
+      margin: 20px;
+    }
+
+    div.textoanuncio{
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    p{
+        margin: 10px;
+    }
+
+    div.iconos{
+        text-align: center;
+        margin: 10px;
+        word-spacing: 20px;
+    }
+
+    button{
+        background: rgb(0, 89, 255);
+        width: 100px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        border: orange;
+    }
+
+    button.VerTodas{
+        background: green;
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        border: green;      
+    }
+
+    div.VerTodas{
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .footer{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        color:white;
+        font-size: 1.5cm;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    div.footerchico{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div.pieleft{
+        background: darkslategray;
+        color: white;
+        display: flex;
+        position: absolute;
+        width: 1688px;
+        height: 150px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    div.pieright{
+        display: flex;
+        position: absolute;
+        background: darkslategray;
+        color: white ;     
+        right: 0px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+   
+    h1.deporte{
+        font-size:3em;
+        color:white;       
+        float:right;
+        padding-right: 10%;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    }    
+    ul.fotos img{
+        position:inherit;
+        height:25%;
+        width:25%;
+        
+    }
+    ul.fotos{
+        margin: 20px;
+        background-color: #043364 ;
+        padding: 3%;
+        
+    }    
+    
+        
+    
+    div.row{
+        
+        background-color: rgb(167, 2, 2);
+        padding: 2px;
+        position: center; 
+        color: mediumblue;
+        width: 100%;
+    }
+       
+    div.col-lg-7{
+        background-color: darkblue;
+        padding: 1rem;        
+    }
+    h5{
+        color: floralwhite;
+    }
+    .bg-warning {
+        background-color: #043364!important;
+    }
+    .bg-dark {
+        background-color: #043364!important;
+    }  
+    .bg-success {
+        background-color: #043364!important;
+    }
+    .bg-danger {
+        background-color: rgb(168, 7, 23)!important;
+    }
+    h3.deporte{
+        font-family: cursive;
+        font-weight: 800;
+        font-size: 2rem;
+        color: white;
+
+    }
+    .card-body{
+        text-align: center!important;
+        background-color:#043364 ;
+    }
+      a:hover {
+    color: #030840!important;
+    text-decoration: underline;
+    }
+
+    a {
+    color: whitesmoke!important;
+    text-decoration: none;
+    background-color: transparent;
+    } 
+    .dropdown-menu {
+        background-color: rgb(17 3 102 / 97%)!important;
+    }
+    .fb-login-button{
+        padding: auto;
+    }
+    
+       
+    
+    
