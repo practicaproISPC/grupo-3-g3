@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./HojaDeEstilo1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Bochas Sport Club</title>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg" style= "background-color:darkblue">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./Imagenes/logo2.png" alt="..." height="80">
+            <p>Bochas Sport Club</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Integrador1.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">El Club</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Actividades
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item " href="./Acrobacia sobre tela.html">Acrobacia Sobre Tela</a></li>
+                        <li><a class="dropdown-item " href="./Básquet.html">Basquet</a></li>
+                        <li><a class="dropdown-item " href="./Futbol.html">Fútbol</a></li>
+                        <li><a class="dropdown-item " href="./Gimnasia Artística.html">Gimnasia Artística</a></li>
+                        <li><a class="dropdown-item " href="./Handball.html">Handball</a></li>
+                        <li><a class="dropdown-item " href="./Hockey.html">Hockey</a></li>
+                        <li><a class="dropdown-item " href="./Patín Artístico.html">Patín</a></li>
+                        <li><a class="dropdown-item " href="./Voley.html">Voley</a></li>
+                        <li><a class="dropdown-item " href="./Yoga.html">Yoga</a></li>
+                        <li><a class="dropdown-item " href="./Zumba.html">Zumba</a></li>
+                      </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Galeria</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <h1 class="deporte">Registro de<br> Inscripción</h1>
+    </div>
+</nav>
+
+<!-- Page Content -->
+
+  
+
+
+<body class="center h6">
+    <!--FORMULARIO REGISTRO-->
+    <section class="container ">
+        <div class="row ">
+            <div class="col-10 mx-auto">
+                <form action="mailto:luna.htz@hotmail.com?subject=Reserva Salón" method="post" enctype="text/plain">
+                    <div class="input-group mb-3">
+                        <label class="col-2" for="fotoUsuario">Imagen de Perfil</label>
+                        <input type="file" class="form-control col-6" id="fotoUsuario">
+                        <img src="./Imagenes/logo2.png"
+                            class="rounded float-end col-4" alt="fotoUsuario">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">Email:</label>
+                        <input type="email" placeholder="correo@host.com" id="correo" name="correo" class="form-control; col-10">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">contraseña:</label>
+                        <input type="text" placeholder="contraseña" name="pass" class="form-control; col-6">
+                        <span id="passwordHelpInline" class="form-text col-4"> Debe tener entre 8 y 20 caracteres.
+                        </span>
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">Nombres:</label><br>
+                        <input type="text" placeholder="escribe tu nombre" name="nombre" class="form-control; col-10">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">Apellidos:</label>
+                        <input type="text" placeholder="escribe tu apellido" name="apellido"
+                            class="form-control; col-10">
+                    </div>
+                    <div class="form-group row">
+                        <label class=" col-2" for="tipoDNI">Documento</label>
+                        <select class="form-select col-2" id="tipoDNI" name="tipoDoc">
+                            <option selected>DNI</option>
+                            <option value="1">LC</option>
+                            <option value="2">LE</option>
+                        </select>
+                        <label for="" class="col-2 col-form-label">Número:</label>
+                        <input type="text" placeholder="12345678 sin puntos" name="documento"
+                            class="form-control; col-6">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">Fecha de Nacimiento:</label>
+                        <input type="date" class="form-control; col-7" id="fechaNacimiento" name="fechaNac">
+                        <!--calcular edad-->
+                        <span class="col-3 form-control" id="fechaNacimiento">Edad</span>
+                        <p id="EdadCalculada1"></p>
+                    </div>
+                    <div class="form-group row">
+                        <label class=" col-2" for="tipoDNI">Teléfono</label>
+                        <select class="form-select col-2" id="tipoTelefono" name="tipoTel">
+                            <option selected>Celular</option>
+                            <option value="1">Fijo</option>
+                        </select>
+                        <label for="" class="col-2 col-form-label">Número:</label>
+                        <input type="text" placeholder="351-1234578 (sin 0 ni 15)" name="telefono"
+                            class="form-control; col-6">
+                    </div>
+                    <div class="form-group row">
+                        <label for="" class="col-2 col-form-label">Dirección:</label>
+                        <input type="text" placeholder="Calle" name="calle" class="form-control; col-5">
+                        <label for="" class="col-2 col-form-label">Numero:</label>
+                        <input type="text" placeholder="numero" name="numDirec" class="form-control; col-3">
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+        <!--aceptar registro de datos-->
+        <div class="container col-sm-12 ">
+            <p><a href="#" class="">¿Ya tengo Cuenta?</a></p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                    Estoy de acuerdo con<a href="#">Terminos y Condiciones</a>
+                </label>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Registrar</button>
+            
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Footer-->
+    <footer class="page-footer font-small indigo bg-dark">
+
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class=" text-uppercase mt-3 mb-4">El Club</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Historia</a>
+                        </li>
+                        <li>
+                            <a href="#!">Autoridades</a>
+                        </li>
+                        <li>
+                            <a href="#!">Visión</a>
+                        </li>
+                        <li>
+                            <a href="#!">Very long link</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Novedades</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Actividades</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mx-auto">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacto</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#!">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <footer class="py-5 bg-dark">
+            <div class="container px-4 px-lg-5">
+                <p class="m-0 text-center text-white">Copyright &copy; 2021</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+.container{
+    position:relative;
+    display:inline-block;
+    
+     
+}
+
+}
+.left{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    color:rgb(15, 29, 228);
+    font-size: 2cm;
+}
+
+.right{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color:rgb(0, 0, 0);
+    font-size: 1cm;
+}
+.campos {
+    width: 100%;
+    background: #d5dae0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #c51f64;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centrar {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.center{
+    text-align: center;
+    top: 3cm;
+    color: black;
+    font-size: 1cm;
+    text-size-adjust: inherit;
+}
+
+.Venta{
+    flex-direction: initial;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    color:white;
+    font-size: 1.5cm;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.bloque {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    padding: 50px;
+  }
+  
+div.a{
+    display: inline-flex;
+    font-size: 20px;
+    width: 300px;
+}
+
+div.anuncio {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    padding: auto;
+    background: lightgrey;
+    border: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 200px;
+    
+  }
+
+  span.precio{
+      color: green;
+      font-size: 20px;
+      margin: 20px;
+    }
+
+    div.textoanuncio{
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    p{
+        margin: 10px;
+    }
+
+    div.iconos{
+        text-align: center;
+        margin: 10px;
+        word-spacing: 20px;
+    }
+
+    button{
+        background: orange;
+        width: 300px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        border: orange;
+    }
+
+    button.VerTodas{
+        background: green;
+        width: 200px;
+        height: 50px;
+        color: white;
+        font-size: 20px;
+        border: green;      
+    }
+
+    div.VerTodas{
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .footer{
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        color:white;
+        font-size: 1.5cm;
+        text-align: left;
+        font-family: 'Franklin Gothic Medium';
+    }
+
+    div.footerchico{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div.pieleft{
+        background: darkslategray;
+        color: white;
+        display: flex;
+        position: absolute;
+        width: 1688px;
+        height: 150px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    div.pieright{
+        display: flex;
+        position: absolute;
+        background: darkslategray;
+        color: white ;     
+        right: 0px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .bordeImagen {
+        border: rgb(155, 56, 56) 10px solid;
+        border-image-slice: 10;
+        border-image-width: 20px 40px;
+        padding: 5px;
+        text-align: justify;
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    h1.deporte{
+        font-size:600%;
+        color:darkblue;
+        background-color: red;
+        
+
+
+    }    
+    ul.fotos img{
+        position:inherit;
+        height:25%;
+        width:25%;
+        
+    }
+    ul.fotos{
+        margin: 20px;
+        background-color: darkblue ;
+        padding: 3%;
+        
+    }    
+    
+        
+    
+    div.row{
+        
+        background-color: white;
+        padding: 2px;
+        position: center; 
+        
+    }
+       
+
+    
